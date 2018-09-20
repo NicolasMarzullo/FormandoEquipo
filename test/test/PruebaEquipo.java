@@ -45,13 +45,13 @@ public class PruebaEquipo {
 		
 		System.out.println(form.calcularAfinidad());
 	
-	}
+	}*/
 	
 	@Test
 	public void testCasoEnunciado() throws FileNotFoundException{
 		Formulario form = ArchivoEquipo.leer("test/lotes/in/CasoEnunciado.in");
 		System.out.println(form.calcularAfinidad());
-	}*/
+	}
 	
 	/*@Test
 	public void testMasDeUnGanador() throws FileNotFoundException{
@@ -59,11 +59,11 @@ public class PruebaEquipo {
 		System.out.println(form.calcularAfinidad());
 	}*/
 	
-	@Test
+	/*@Test
 	public void testSinGanadores() throws FileNotFoundException{
 		Formulario form = ArchivoEquipo.leer("test/lotes/in/CasoSinGanadores.in");
 		System.out.println(form.calcularAfinidad());
-	}
+	}*/
 	
 	/*@Test
 	public void testCoincidenciaPalabras() throws FileNotFoundException{

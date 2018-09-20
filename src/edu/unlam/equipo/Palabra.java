@@ -8,7 +8,7 @@ public class Palabra {
 	}
 	
 	public int coincidencias(String otra) {
-		int contLetrasCoincidentes = -1;	//Este -1 sirve por si no hay ninguna coincidencia de letras, necesito que devuelva 0.
+		int contLetrasCoincidentes = 0;
 		int i=1;
 		
 		
@@ -17,7 +17,10 @@ public class Palabra {
 			i++;
 		}
 			
-		return contLetrasCoincidentes++;	//Como arranca de -1 lo devuelvo incrementado.
+		if(contLetrasCoincidentes == 0)
+			return -1;
+		
+		return contLetrasCoincidentes;	
 	}
 
 	public String getValor() {
