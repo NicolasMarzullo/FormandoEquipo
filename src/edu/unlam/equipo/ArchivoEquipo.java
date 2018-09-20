@@ -21,4 +21,6 @@ public class ArchivoEquipo {
 		lector.close();
 		return new Formulario(preguntas, cantPreguntas); 
 	}
+	
+	
 }
